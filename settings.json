@@ -1,0 +1,215 @@
+/*
+for zed 1.9.0
+this is also darkmode enforced. if that's not what you want, i suggest replacing all "#12121bff" with "#e0e0ebff".
+have a good time coding! 
+*/
+{
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 200,
+    },
+  },
+  "hover_popover_enabled": true,
+  "inlay_hints": {
+    "show_background": false,
+    "enabled": false,
+  },
+  "cursor_shape": "bar",
+  "cursor_blink": true,
+  "terminal": {
+    "cursor_shape": "bar",
+    "blinking": "on",
+  },
+  "scrollbar": {
+    "show": "never",
+    "cursors": false,
+    "git_diff": false,
+    "search_results": false,
+    "selected_text": false,
+    "selected_symbol": false,
+    "diagnostics": "none",
+    "axes": {
+      "horizontal": false,
+      "vertical": false,
+    },
+  },
+  "minimap": {
+    "show": "never",
+    "thumb": "hover",
+    "thumb_border": "none",
+    "current_line_highlight": "none",
+  },
+  "preview_tabs": {
+    "enable_preview_file_from_code_navigation": false,
+    "enable_preview_from_multibuffer": false,
+    "enable_preview_from_project_panel": false,
+    "enabled": false,
+  },
+  "debugger": {
+    "button": false,
+  },
+  "search": {
+    "button": false,
+  },
+  "diagnostics": {
+    "button": false,
+  },
+  "title_bar": {
+    "show_project_items": false,
+    "show_onboarding_banner": false,
+    "show_user_menu": false,
+    "show_user_picture": false,
+    "show_branch_name": false,
+    "show_sign_in": false,
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+    "anthropic_retention": false,
+  },
+  "auto_install_extensions": {
+    "html": false,
+  },
+  "gutter": {
+    "line_numbers": false,
+    "runnables": false,
+    "breakpoints": false,
+    "bookmarks": false,
+    "folds": false,
+  },
+  "tab_bar": {
+    "show": true,
+    "show_nav_history_buttons": false,
+    "show_tab_bar_buttons": false,
+  },
+  "status_bar": {
+    "experimental.show": false,
+    "active_language_button": false,
+    "cursor_position_button": false,
+    "line_endings_button": false,
+  },
+  "active_pane_modifiers": {
+    "border_size": 0.0,
+    "inactive_opacity": 1.0,
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false,
+    "selections_menu": false,
+    "agent_review": false,
+    "code_actions": false,
+  },
+  "outline_panel": {
+    "indent_guides": {
+      "show": "never",
+    },
+    "button": false,
+  },
+  "project_panel": {
+    "hide_root": true,
+    "indent_size": 15.0,
+    "default_width": 200.0,
+    "hide_gitignore": true,
+    "indent_guides": {
+      "show": "never",
+    },
+    "sticky_scroll": false,
+    "drag_and_drop": false,
+    "auto_reveal_entries": false,
+    "entry_spacing": "standard",
+    "git_status": false,
+    "folder_icons": false,
+    "file_icons": false,
+    "button": false,
+    "scrollbar": {
+      "show": "never",
+      "horizontal_scroll": false,
+    },
+  },
+  "ui_font_size": 14,
+  "buffer_font_size": 12,
+  "current_line_highlight": "none",
+  "inline_code_actions": false,
+  "lsp_document_colors": "none",
+  "lsp_document_links": false,
+
+  "experimental.theme_overrides": {
+    "background": "#12121bff",
+    "surface.background": "#12121bff",
+    "elevated_surface.background": "#12121bff",
+
+    "title_bar.background": "#12121bff",
+    "title_bar.inactive_background": "#12121bff",
+    "toolbar.background": "#12121bff",
+    "tab_bar.background": "#12121bff",
+    "tab.active_background": "#12121bff",
+    "tab.inactive_background": "#12121bff",
+
+    "panel.background": "#12121bff",
+    "panel.focused_border": "#12121bff",
+    "pane.focused_border": "#12121bff",
+
+    "border": "#12121bff",
+    "border.variant": "#12121bff",
+    "border.focused": "#12121bff",
+    "border.selected": "#12121bff",
+    "border.transparent": "#12121bff",
+    "border.disabled": "#12121bff",
+
+    "editor.background": "#12121bff",
+    "editor.gutter.background": "#12121bff",
+    "editor.subheader.background": "#12121bff",
+    "editor.active_line.background": "#12121bff",
+    "editor.highlighted_line.background": "#12121bff",
+    "editor.wrap_guide": "#12121bff",
+    "editor.active_wrap_guide": "#12121bff",
+    "editor.indent_guide": "#12121bff",
+    "editor.indent_guide_active": "#12121bff",
+    "editor.document_highlight.read_background": "#12121bff",
+    "editor.document_highlight.write_background": "#12121bff",
+    "editor.document_highlight.bracket_background": "#12121bff",
+
+    "search.match_background": "#12121bff",
+    "search.active_match_background": "#12121bff",
+
+    "status_bar.background": "#12121bff",
+
+    "element.background": "#12121bff",
+    "element.hover": "#12121bff",
+    "element.active": "#12121bff",
+    "element.selected": "#12121bff",
+    "element.disabled": "#12121bff",
+
+    "ghost_element.background": "#12121bff",
+    "ghost_element.hover": "#12121bff",
+    "ghost_element.active": "#12121bff",
+    "ghost_element.selected": "#12121bff",
+    "ghost_element.disabled": "#12121bff",
+
+    "drop_target.background": "#12121bff",
+    "drop_target.border": "#12121bff",
+
+    "scrollbar.thumb.background": "#12121bff",
+    "scrollbar.thumb.hover_background": "#12121bff",
+    "scrollbar.thumb.active_background": "#12121bff",
+    "scrollbar.thumb.border": "#12121bff",
+    "scrollbar.track.background": "#12121bff",
+    "scrollbar.track.border": "#12121bff",
+
+    "minimap.thumb.background": "#12121bff",
+    "minimap.thumb.hover_background": "#12121bff",
+    "minimap.thumb.active_background": "#12121bff",
+    "minimap.thumb.border": "#12121bff",
+
+    "terminal.background": "#12121bff",
+    "terminal.ansi.black": "#12121bff",
+    "terminal.ansi.bright_black": "#12121bff",
+    "terminal.ansi.dim_black": "#12121bff",
+
+    "players": [
+      {
+        "cursor": "#9aa7adff",
+      },
+    ],
+  },
+}
