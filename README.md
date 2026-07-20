@@ -1,4 +1,4 @@
-for zed 1.9.0, compat with future versions
+for zed 1.9.0, *maybe* compat with future versions
 
 <img width="1256" height="790" alt="79b97beb708565cd554ca6d2c268753c" src="https://github.com/user-attachments/assets/13e4d0dc-155c-4859-a9e1-fe215fed167f" />
 
